@@ -3,5 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("Hello, World")
+	var n int64
+	n = 10
+	fmt.Printf("%d", n+2)
 }
